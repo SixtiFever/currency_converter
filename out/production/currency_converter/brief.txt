@@ -1,0 +1,23 @@
+Currency Converter
+
+1. DEFINING THE PROJECT
+a) What is the project?
+b) What is the MVP?
+c) What are nice to haves?
+d) When will the project be complete?
+
+a) This is a currency converter that takes an input of GBP and converts to Dollars and vice versa
+b) The MVP will involve the user starting the application, and being able to input a decimal number into a
+field. The input is fixed to either GBP or USD to start. They can then enter a certain character to convert this.
+An output of the equivalent currency is then given. Users can then either close the app or perform another conversion.
+c) - A user interface with fields and buttons
+   - Range of currencies to choose from
+
+2. CREATING THE WORKFLOW
+- Done on Trello
+
+3. BREAK WORKFLOW INTO COMPONENTS
+- Done on Trello
+
+3a. BREAK COMPONENTS INTO CHECKLISTS
+- Done on Trello
