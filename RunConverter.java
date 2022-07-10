@@ -42,7 +42,6 @@ public class RunConverter {
         System.out.println("You have chosen to convert from " + currency1 + " to " + currency2);
 
         double amount_to_convert = converter.userInputValue(currency1, currency2);
-
         double value_after_conversion = converter.conversion(currency1, currency2, amount_to_convert);
 
         System.out.println("You converted (" + currency1 + ") " + amount_to_convert + " to " + currency2 + "." +

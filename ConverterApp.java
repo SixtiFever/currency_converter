@@ -61,8 +61,12 @@ public class ConverterApp {
         sc = new Scanner(System.in);
         System.out.println("What is the amount of " + currency1 + " you would like to convert to " + currency2);
         System.out.print("Enter value of " + currency1 + ": ");
+        boolean is_double = sc.hasNextDouble();
+        if(!is_double){
+            System.out.println("Invalid input. Please put in a valid numeric value.");
+           return userInputValue(currency1, currency2);
+        }
         double val = sc.nextDouble();
-
         return val;
     }
 
